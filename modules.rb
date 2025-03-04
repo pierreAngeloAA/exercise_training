@@ -7,7 +7,7 @@ module SavingsAccount
 		when balance < 0
 			3.213
 		when balance > 0 && balance <= 1000
-		 0.5
+			0.5
 		when balance >= 1000 && balance < 5000
 			1.621
 		when balance > 5000
