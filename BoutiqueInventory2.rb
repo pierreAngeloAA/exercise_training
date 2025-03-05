@@ -16,13 +16,7 @@ person.age = 35
 person.age
 #=> 35
 
-
-
 puts "🍿" * 50
-
-
-
-
 
 class BoutiqueInventory
   attr_reader :items
@@ -43,6 +37,7 @@ class BoutiqueInventory
 end
 
 puts "🍿" * 50
+
  items =([
     {price: 65.00, name: "Maxi Brown Dress", quantity_by_size: {s: 3, m: 7, l: 8, xl: 4}},
     {price: 50.00, name: "Red Short Skirt", quantity_by_size: {}},
